@@ -77,7 +77,7 @@ if opcion == "Portafolio Óptimo":
     with st.sidebar:
         st.divider()
         st.markdown("**Parámetros para el portafolio**")
-        num_ports       = st.slider("Número de portafolios", 500, 3000, 1000, step=500)
+        num_ports       = st.slider("Número de portafolios", 10000, 3000, 100000, step=10000)
         ventas_en_corto = st.checkbox("Permitir ventas en corto", value=False)
 #----------------------------------------------------------------------
 if opcion == "Perfil de Riesgo":
